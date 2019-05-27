@@ -1,0 +1,27 @@
+/* Gravity forms */
+
+// Remove red border of inputs
+.gform_wrapper {
+    div.validation_error{
+        margin-bottom: 0 !important;
+        border-top: 0 !important;
+        border-bottom: 0 !important;
+    }
+    ul.gform_fields{
+        li.gfield.gfield_error{
+            // display: none !important;
+            background-color: transparent;
+            margin: 0 !important;
+            border-top: 0;
+            border-bottom: 0;
+            padding-bottom: 6px;
+            padding-top: 8px;
+
+            .gfield_description.validation_message{
+                padding-top: 0;
+            }
+
+
+        }
+    }
+}

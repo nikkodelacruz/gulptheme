@@ -1,0 +1,14 @@
+{
+  "name": "gulptheme",
+  "version": "1.0.0",
+  "description": "Wordpress theme made with Gulp",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^4.0.2"
+  },
+  "devDependencies": {
+    "gulp-sass": "^4.0.2"
+  },
+  "author": "Nikko Dela Cruz",
+  "license": "ISC"
+}
