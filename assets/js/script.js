@@ -1,5 +1,5 @@
 (function($) {
-    'use strict'; 
+    'use strict';  
     // $('[data-toggle="tooltip"]').tooltip();
     // $('[data-toggle="popover"]').popover();
 })(jQuery);
