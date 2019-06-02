@@ -1,5 +1,5 @@
-@import "partials/default-variables";
-
+@import "../partials/default-variables";
+ 
 body {
     font-family: "Lato";
     font-size: 14px;
@@ -83,6 +83,7 @@ ul.top-menu {
     & > li {
         display: inline-block;
         margin: 0 20px;
+        transition: all 0.5s ease; 
 
         // First Level anchor styles
         & > a,
@@ -134,19 +135,11 @@ ul.top-menu {
 
                 &:first-of-type {
                     padding-top: 8px;
-                    -webkit-border-top-left-radius: 5px;
-                    -webkit-border-top-right-radius: 5px;
-                    -moz-border-top-left-radius: 5px;
-                    -moz-border-top-right-radius: 5px;
                     border-top-left-radius: 5px;
                     border-top-right-radius: 5px;
                 }
                 &:last-of-type {
                     padding-bottom: 8px;
-                    -webkit-border-bottom-left-radius: 5px;
-                    -webkit-border-bottom-right-radius: 5px;
-                    -moz-border-bottom-left-radius: 5px;
-                    -moz-border-bottom-right-radius: 5px;
                     border-bottom-left-radius: 5px;
                     border-bottom-right-radius: 5px;
                 }
@@ -457,8 +450,6 @@ body .gform_wrapper li.gfield {
         .fl-photo-caption-hover {
             top: 0;
             bottom: 0;
-            -webkit-border-radius: 100%;
-            -moz-border-radius: 100%;
             border-radius: 100%;
             display: flex;
             align-items: center;

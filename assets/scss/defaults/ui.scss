@@ -1,4 +1,4 @@
-@import "partials/ui-variables";
+@import "../partials/ui-variables";
 
 // Buttons style
 .btn {
@@ -37,25 +37,17 @@
 
 // Accordion
 #accordion {
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
     border-radius: 5px;
     overflow: hidden;
 
     .card {
         border: none;
-        -webkit-border-radius: $accor--border-radius;
-        -moz-border-radius: $accor--border-radius;
         border-radius: $accor--border-radius;
 
         .card-header {
             background: $accor--head-bg;
             padding: 0;
-
-            -webkit-border-radius: 0;
-            -moz-border-radius: 0;
             border-radius: 0;
-
             button {
                 display: block;
                 padding: $accor--padding;
@@ -64,8 +56,6 @@
                 text-decoration: none;
                 color: $accor--text-color;
                 border: 0;
-                -webkit-border-radius: 0;
-                -moz-border-radius: 0;
                 border-radius: 0;
             }
 

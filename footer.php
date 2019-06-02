@@ -1,10 +1,10 @@
 
-    <div id="footer">
+    <footer>
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
                     <div class="copyright">
-                        <p>Copyright 2018 | All Rights Reserved | Design by Creatives</p>
+                        <p>Copyright 2019 | All Rights Reserved | </p>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -21,7 +21,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </footer>
 
     <?php wp_footer(); ?>
 
